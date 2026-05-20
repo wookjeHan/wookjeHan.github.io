@@ -112,6 +112,15 @@
     opacity: 70%;
     background-size: cover;
   }
+  .logoNVIDIA{
+    background: url(/assets/img/nvidia-logo-vert.svg);
+    margin: -10px;
+    width: 60px;
+    opacity: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .logoSNUExperience{
     background: url(/assets/img/SNU.png);
     opacity: .3;
@@ -183,7 +192,7 @@
   .timeline_experience {
     background: var(--primary-color);
     margin: 20px auto;
-    padding: 0 0 0 180px;
+    padding: 20px;
   }
   
   /* Title of the card */
@@ -210,24 +219,10 @@
 
   }
 
-  .time
-  {
-    position:absolute;
-    top:0%;
-    left:-200px;
-    margin:0;
-    padding:8px 16px;
-    background:rgba(233,33,99,1);
-    color:#fff;
-    border-radius:18px;
-    box-shadow:0 0 0 3px rgba(233,33,99,0.3);
-  }
-  
-  
-  .time h4{
-    margin:0;
-    padding:0;
-    font-size:14px;
+  .exp-date {
+    color: #888;
+    font-size: 13px;
+    margin: 2px 0 5px;
   }
   
 
