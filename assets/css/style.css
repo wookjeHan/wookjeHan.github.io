@@ -224,6 +224,40 @@
   }
   
 
+  /* Blog */
+  .blog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .blog-list li {
+    padding: 12px 0;
+    border-bottom: 1px dashed #e5e5e5;
+  }
+
+  .blog-list li:last-child {
+    border-bottom: none;
+  }
+
+  .post-date {
+    color: #888;
+    font-size: 13px;
+    margin: 4px 0 8px;
+  }
+
+  .blog-post {
+    line-height: 1.7;
+  }
+
+  .blog-post h2 {
+    margin-bottom: 4px;
+  }
+
+  .blog-post p, .blog-post ul, .blog-post ol {
+    margin-bottom: 16px;
+  }
+
   /* Teaching */
   .teachinglist {
     list-style: none;
