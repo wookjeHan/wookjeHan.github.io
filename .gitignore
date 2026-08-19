@@ -1,0 +1,9 @@
+.jekyll-metadata
+Dockerfile
+Dockerfile.jekyll
+make_cta_figure.py
+make_figure.py
+test_image.py
+__pycache__/make_figure.cpython-312.pyc
+tmp/*
+.jekyll-cache/*

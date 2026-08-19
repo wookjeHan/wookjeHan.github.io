@@ -1,21 +1,15 @@
 ---
 layout: default
-title: Blog
+title: Writing & Contributions
 permalink: /blog/
 ---
-<h2>Blog</h2>
+<h2>Writing &amp; Contributions</h2>
 <hr class="dashed">
 
-{% if site.posts.size == 0 %}
-<p>No posts yet. Check back soon!</p>
-{% else %}
 <ul class="blog-list">
-  {% for post in site.posts %}
   <li>
-    <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
-    <span class="post-date">— {{ post.date | date: "%B %d, %Y" }}</span>
-    {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+    <a href="https://developer.nvidia.com/blog/nvidia-platform-delivers-lowest-token-cost-enabled-by-extreme-co-design/">
+      <strong>NVIDIA Platform Delivers Lowest Token Cost Enabled by Extreme Co-Design</strong>
+    </a>
   </li>
-  {% endfor %}
 </ul>
-{% endif %}
