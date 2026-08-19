@@ -246,6 +246,35 @@
     margin: 4px 0 8px;
   }
 
+  .contribution-list {
+    padding-left: 1.25rem;
+  }
+
+  .contribution-entry {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .contribution-title {
+    font-size: 16px;
+  }
+
+  .contribution-date {
+    color: #888;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  @media print, screen and (max-width: 480px) {
+    .contribution-entry {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 4px;
+    }
+  }
+
   .blog-post {
     line-height: 1.7;
   }
